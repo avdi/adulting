@@ -2,6 +2,8 @@
 
 source "https://rubygems.org"
 
-# gem "rails"
+gem "rspec", "~> 3.12", group: :development
+gem "standard", "~> 1.32", group: [:development, :test]
 
-gem "rspec", "~> 3.12", :group => :development
+gem "debug", "~> 1.8", group: :development
+gem "ruby-lsp-rspec", group: :development, require: false

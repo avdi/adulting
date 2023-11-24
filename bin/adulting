@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+require "English"
+require "optparse"
+require "yaml/store"
+
+OptionParser.new do |parser|
+  global_options = {}
+  parser.order! into: global_options do |subcommand|
+    case subcommand
+    when "add" then
+    else abort parser.help
+    end
+  end
+end
