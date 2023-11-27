@@ -1,5 +1,8 @@
 {
   "recommendations": [
     "testdouble.vscode-standard-ruby",
+    "connorshea.vscode-ruby-test-adapter",
+    "castwide.solargraph",
+    "koichisasada.vscode-rdbg"
   ],
 }

@@ -23,4 +23,7 @@
     "workspaceSymbol": true,
     "references": true
   },
+  "rubyTestExplorer.testFramework": "rspec",
+  "testExplorer.addToEditorContextMenu": false,
+  "testExplorer.useNativeTesting": false,
 }
