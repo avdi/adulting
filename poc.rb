@@ -8,8 +8,8 @@ require "webrick"
 
 OOB_URI = "http://localhost:4567"  # Change the port number if necessary
 APPLICATION_NAME = "Google Drive API Ruby Quickstart"
-CREDENTIALS_PATH = "creds.json"
-TOKEN_PATH = "token.yaml"
+CREDENTIALS_PATH = "tmp/creds.json"
+TOKEN_PATH = "tmp/token.yaml"
 SCOPE = Google::Apis::DriveV3::AUTH_DRIVE_FILE
 
 def authorize
