@@ -9,5 +9,6 @@
 		"ghcr.io/devcontainers/features/github-cli:1": {},
 		"ghcr.io/jungaretti/features/ripgrep:1": {},
 		"ghcr.io/devcontainers-contrib/features/direnv": {},
-	}
+	},
+	"postCreateCommand": "bundle install"
 }
