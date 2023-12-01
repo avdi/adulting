@@ -7,4 +7,4 @@ gem "standard", "~> 1.32", group: [:development, :test]
 gem "debug", "~> 1.8", group: :development
 gem "solargraph", "~> 0.49.0", :group => :development
 
-gem "google-api-client", "~> 0.53.0"
+gem "google-apis-drive_v3", "~> 0.44.0"
