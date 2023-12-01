@@ -1,7 +1,6 @@
 module GoogleSheetsGateway
   class AchieveCurrentCredentials
     def initialize
-      @status = :blocked
       @stage = :initial
     end
 
